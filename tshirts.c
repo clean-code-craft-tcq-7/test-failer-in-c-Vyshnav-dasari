@@ -15,6 +15,7 @@ char size(int cms) {
 
 int testTshirtSize() {
     printf("\nTshirt size test\n");
+    assert(size(5) == 'error')
     assert(size(37) == 'S');
     assert(size(40) == 'M');
     assert(size(43) == 'L');
